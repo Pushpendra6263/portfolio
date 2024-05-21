@@ -20,9 +20,9 @@ const Home = () => {
         </div>
 
         {/* text */}
-        <div className='h-1/2 lg:h-full lg:w-1/2 flex flex-col  gap-8 items-center justify-center'>
+        <div className='h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-5 sm:gap-8 items-center justify-center'>
 
-          <h1 className='text-3xl md:text-5xl font-bold'>Crafting Digital Experiences, Designing Tomorrow. </h1>
+          <h1 className='text-3xl md:text-5xl font-bold text-center lg:text-left'>Crafting Digital Experiences, Designing Tomorrow. </h1>
 
           <p className='md:text-l'>Hey There! I'm Pushpendra Kumar Dubey , Welcome to my Portfolio.I am a passionate Web-developer with a keen eye for detail and a drive for excellence.</p>
 

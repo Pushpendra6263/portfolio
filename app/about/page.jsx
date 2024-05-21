@@ -54,7 +54,7 @@ const about = () => {
 
             <h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
 
-            <p className='text-lg' >
+            <p className='text-[15px] sm:text-lg' >
               I'm PUSHPENDRA DUBEY,
               I'm a Web-developer with proficiency in the MERN stack,
               I specialize in crafting captivating user interfaces and interactive web experiences.
@@ -118,7 +118,7 @@ const about = () => {
               animate={isSkillRefInView ? { x: 0 } : {}}
               className='flex gap-4 flex-wrap'>
               {skill.map((i) => (
-                <div className='p-2 text-sm cursor-pointer rounded bg-black text-white hover:bg-white hover:text-black'>{i}</div>
+                <div className='px-3 py-2 sm:px-4 sm:py-2 text-sm cursor-pointer rounded bg-black text-white hover:bg-white hover:text-black'>{i}</div>
               ))}
 
             </motion.div>
@@ -166,15 +166,15 @@ const about = () => {
                 {/* left */}
                 <div className='w-1/2'>
 
-                  <div className='w-fit bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Front-End Developer Intern</div>
+                  <div className='text-[12px] w-2/3 px-2 py-1 sm:text-lg sm:w-fit bg-white sm:p-3 font-semibold rounded-b-lg rounded-s-lg'>Front-End Developer Intern</div>
 
-                  <div className='p-3  text-sm italic'>I've developed responsive and
+                  <div className='text-[11px] p-3 sm:text-sm italic'>I've developed responsive and
                     user friendly web pages using HTML, CSS and JavaScript and also implement dynamic features and integrated
                     APIs.</div>
 
-                  <div className=' p-3 text-s font-semibold text-red-400'>09/2022 - 11/2022</div>
+                  <div className='text-[12px] p-3 text-sm font-semibold text-red-400'>09/2022 - 11/2022</div>
 
-                  <div className=' w-fit p-1 bg-white text-sm rounded font-semibold'>Goeasy HSC Pvt. Ltd.</div>
+                  <div className='text-[12px] w-fit p-1 bg-white text-sm rounded font-semibold'>Goeasy HSC Pvt. Ltd.</div>
 
                 </div>
 
@@ -223,11 +223,11 @@ const about = () => {
                 {/* left */}
                 <div className='w-1/3'>
 
-                  <div className=' p-3  text-lg font-semibold text-red-400'>Winner</div>
+                  <div className=' p-3 text-lg font-semibold text-red-400'>Winner</div>
 
-                  <div className='w-fit bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Wesite Challenge</div>
+                  <div className=' text-[12px] p-2 sm:text-base w-fit bg-white sm:p-3 font-semibold rounded-b-lg rounded-s-lg'>Wesite Challenge</div>
 
-                  <div className='py-3 text-small'>Organized by Oriental College of Technology</div>
+                  <div className='text-[13px] sm:text-sm py-3'>Organized by Oriental College of Technology</div>
 
 
                 </div>
@@ -282,9 +282,9 @@ const about = () => {
 
                   <div className=' p-3 text-lg font-semibold text-red-400'>Winner</div>
 
-                  <div className='w-fit bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Junior vs Senior Hackathon</div>
+                  <div className='text-[12px] p-2 sm:text-base w-fit bg-white sm:p-3 font-semibold rounded-b-lg rounded-s-lg'>Junior vs Senior Hackathon</div>
 
-                  <div className='py-3 text-small'>Organized by Sheryians Coding School</div>
+                  <div className='py-3 text-[13px] sm:text-sm '>Organized by Sheryians Coding School</div>
 
                 </div>
 
@@ -299,9 +299,9 @@ const about = () => {
 
                   <div className=' p-3 text-lg font-semibold text-red-400'>Participant</div>
 
-                  <div className='w-fit bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Web-Development Hackathon</div>
+                  <div className='text-[12px] p-2 sm:text-base w-fit bg-white sm:p-3 font-semibold rounded-b-lg rounded-s-lg'>Web-Development Hackathon</div>
 
-                  <div className='py-3 text-small'>Organized by Sheryians Coding School</div>
+                  <div className='py-3 text-[13px] sm:text-sm '>Organized by Sheryians Coding School</div>
 
                 </div>
 
