@@ -103,7 +103,7 @@ const about = () => {
           </div>
 
           {/* skill */}
-          <div ref={skillRef} className=' flex flex-col gap-8 justify-center'>
+          <div ref={skillRef} className='gap-6 flex flex-col sm:gap-8 justify-center'>
 
             <motion.h1
               initial={{ x: "-400px" }}
@@ -116,9 +116,9 @@ const about = () => {
             <motion.div
               initial={{ x: "-400px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
-              className='flex gap-4 flex-wrap'>
+              className='flex flex-wrap'>
               {skill.map((i) => (
-                <div className='px-3 py-2 sm:px-4 sm:py-2 text-sm cursor-pointer rounded bg-black text-white hover:bg-white hover:text-black'>{i}</div>
+                <div className='p-3 sm:p-3 mx-4 my-2 text-[12px] sm:text-sm cursor-pointer rounded bg-black text-white hover:bg-white hover:text-black'>{i}</div>
               ))}
 
             </motion.div>
@@ -144,7 +144,7 @@ const about = () => {
           </div>
 
           {/* Experiences */}
-          <div ref={expRef} className=' flex flex-col gap-8 justify-center'>
+          <div ref={expRef} className='gap-6 flex flex-col sm:gap-8 justify-center'>
 
             <motion.h1
               initial={{ x: "-400px" }}
@@ -201,7 +201,7 @@ const about = () => {
           </div>
 
           {/* achievement */}
-          <div ref={achRef} className=' flex flex-col gap-8 justify-center pb-48'>
+          <div ref={achRef} className='gap-6 flex flex-col sm:gap-8 justify-center pb-48'>
 
             <motion.h1
               initial={{ x: "-400px" }}

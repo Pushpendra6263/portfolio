@@ -161,19 +161,19 @@ const nav = () => {
                         ))}
 
                         <div className='flex items-center justify-center gap-4 w-full h-[20vh] '>
-                            <Link href='#'>
+                            <Link href='https://github.com/Pushpendra6263/'>
                                 <img src="/github.webp" className='filter invert' alt="" height={40} width={40} />
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://www.linkedin.com/in/pushpendra-dubey-b3b9551a1/'>
                                 <img src="/linkedin.webp" alt="" height={40} width={40} />
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://www.instagram.com/pd_pushpendra_/'>
                                 <img src="/instagram.webp" alt="" height={40} width={40} />
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://www.facebook.com/pushpendra.dubey.7547/'>
                                 <img src="/facebook.webp" alt="" height={40} width={40} />
                             </Link>
-                            <Link href='#'>
+                            <Link href='https://in.pinterest.com/gulludubey123/'>
                                 <img src="/pinterest.webp" alt="" height={40} width={40} />
                             </Link>
                         </div>

@@ -68,7 +68,7 @@ const portfolio = () => {
 
         <div className='h-[calc(100vh-6rem)] w-screen flex flex-col gap-6 items-center justify-center  text-center'>
           <h1 className='text-6xl'>My Works</h1>
-          <p className='w-1/2'>Here, you'll find a showcase of my most significant projects, highlighting the unique approaches and methodologies I employ to achieve impactful results.</p>
+          <p className='w-[80%] sm:w-[70%] md:w-[60%] lg:w-1/2'>Here, you'll find a showcase of my most significant projects, highlighting the unique approaches and methodologies I employ to achieve impactful results.</p>
         </div>
 
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden ">
