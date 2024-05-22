@@ -48,7 +48,7 @@ const contact = () => {
     >
       <div className='h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 py-4'>
 
-        <div className='h-1/3 lg:h-full lg:w-1/2 flex items-center justify-center text-4xl '>
+        <div className='h-[30vh] lg:h-full lg:w-1/2 flex items-center justify-center text-4xl '>
 
           <div >
 
@@ -67,7 +67,7 @@ const contact = () => {
           </div>
         </div>
 
-        <form onSubmit={sendEmail} ref={form} className='h-2/3 flex flex-col justify-center p-10 lg:p-16 gap-5 lg:gap-6 lg:h-full lg:w-2/3 bg-red-50 rounded-xl text-xl'>
+        <form onSubmit={sendEmail} ref={form} className='h-[75vh] flex flex-col justify-center p-10 lg:p-16 gap-5 lg:gap-6 lg:h-full lg:w-2/3 bg-red-50 rounded-xl text-xl'>
 
           <h3 className='text-lg'>Dear Pushpendra Dubey,</h3>
 
