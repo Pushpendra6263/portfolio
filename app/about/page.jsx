@@ -141,7 +141,7 @@ const about = () => {
 
             </div>
 
-          </div>np
+          </div>
 
           {/* Experiences */}
           <div ref={expRef} className='gap-6 flex flex-col sm:gap-8 justify-center'>
