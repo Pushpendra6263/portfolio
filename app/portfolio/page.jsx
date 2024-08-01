@@ -42,7 +42,7 @@ const items = [
     color: "from-blue-300 to-red-300",
     title: "Portfolio",
     desc: "Welcome to my interactive resume portfolio, where I've combined the power of React, Next.js, GSAP, and Framer Motion to bring my resume to life. As a frontend developer passionate about creating immersive web experiences, I've leveraged cutting-edge technologies to showcase my skills and expertise in a dynamic and engaging way.",
-    img: "/portfolio.webp",
+    img: "/portfolio.png",
     link: "https://github.com/Pushpendra6263/Project3",
   },
 ];
