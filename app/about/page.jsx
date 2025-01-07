@@ -17,7 +17,9 @@ const skill = [
   "Bootstrap",
   "Redux",
   "Framer Motion",
-  "MongoDB"
+  "MongoDB",
+  "Git",
+  "Github"
 ]
 
 const about = () => {
@@ -166,15 +168,15 @@ const about = () => {
                 {/* left */}
                 <div className='w-1/2'>
 
-                  <div className='text-[12px] w-2/3 px-2 py-1 sm:text-lg sm:w-fit bg-white sm:p-3 font-semibold rounded-b-lg rounded-s-lg'>Front-End Developer Intern</div>
+                  <div className='text-[12px] w-2/3 px-2 py-1 sm:text-lg sm:w-fit bg-white sm:p-3 font-semibold rounded-b-lg rounded-s-lg'>MERN Stack Developer</div>
 
-                  <div className='text-[11px] p-3 sm:text-sm italic'>I've developed responsive and
-                    user friendly web pages using HTML, CSS and JavaScript and also implement dynamic features and integrated
-                    APIs.</div>
+                  <div className='text-[11px] p-3 sm:text-sm italic'>As a MERN Stack Developer at Goeasy HSC since September 2024, I am developing a company
+                    dashboard utilizing MERN technologies, implementing dynamic features to enhance user experience, and
+                    integrating third-party APIs to optimize performance and data flow.</div>
 
-                  <div className='text-[12px] p-3 text-sm font-semibold text-red-400'>09/2022 - 11/2022</div>
+                  <div className='text-[12px] p-3 text-sm font-semibold text-red-400'>09/2024 - 11/2024</div>
 
-                  <div className='text-[12px] w-fit p-1 bg-white text-sm rounded font-semibold'>Goeasy HSC Pvt. Ltd.</div>
+                  <div className='text-[12px] w-fit p-1 bg-white text-sm rounded font-semibold'>Goeasy HCS Pvt. Ltd.</div>
 
                 </div>
 
