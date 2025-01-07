@@ -174,7 +174,7 @@ const about = () => {
                     dashboard utilizing MERN technologies, implementing dynamic features to enhance user experience, and
                     integrating third-party APIs to optimize performance and data flow.</div>
 
-                  <div className='text-[12px] p-3 text-sm font-semibold text-red-400'>09/2024 - 11/2024</div>
+                  <div className='text-[12px] p-3 text-sm font-semibold text-red-400'>09/2024 - 12/2024</div>
 
                   <div className='text-[12px] w-fit p-1 bg-white text-sm rounded font-semibold'>Goeasy HCS Pvt. Ltd.</div>
 
